@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CAAV,KAAU;EACR,IAAI;EACJ,EAAE;IACA,SAAS,EAAE,oBAAoB;;EAGjC,GAAG;EACH,GAAG;EACH,GAAG;EACH,GAAG;EACH,GAAG;IACD,SAAS,EAAE,wBAAwB;;EAGrC,GAAG;EACH,GAAG;EACH,GAAG;EACH,GAAG;IACD,SAAS,EAAE,uBAAuB;;;;AAItC,AAAA,MAAM,CAAC;EACL,cAAc,EAAE,KAAK;CACtB",
+    "sources": [
+        "../sass/animation/shake.scss"
+    ],
+    "names": [],
+    "file": "shake.css"
+}

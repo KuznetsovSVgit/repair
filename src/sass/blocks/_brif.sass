@@ -1,0 +1,196 @@
+.brif
+  background-image: url('../img/brif/brif-color-bg.jpg'), url('../img/brif/brif-bg.jpg')
+  background-size: 50%, cover
+  background-repeat: repeat-y, no-repeat
+  background-position: left center, center right
+  &-block
+    display: flex
+  &__interview
+    flex-basis: 50%
+  &__form
+    flex-basis: 50%
+    padding-left: 213px
+    text-align: center
+  &__input
+    height: 65px
+    width: 100%
+    max-width: 370px
+    margin-top: 15px
+    &:first-child
+      margin-top: 0px
+  &__button
+    height: 70px
+    width: 100%
+    max-width: 370px
+    margin-top: 15px
+    margin-bottom: 30px
+    +bold
+
+.interview
+  padding-right: 69px
+  &__title
+    margin-bottom: 30px
+    font-size: 22px
+    line-height: 33px
+    +bold
+  &__subtitle
+    display: block
+    margin-bottom: 80px
+    font-size: 16px
+    line-height: 45px
+  &-list
+    list-style: none
+    padding: 0px
+    &__item
+      display: flex
+      align-items: center
+      height: 35px
+      margin-bottom: 30px
+      +bold
+      &:first-child
+        margin-bottom: 26px
+      &:nth-child(3)
+        margin-bottom: 44px
+
+    &__counter
+      display: inline-block
+      text-align: center
+      margin-right: 32px
+      line-height: 35px
+      font-size: 14px
+      width: 35px
+      height: 35px
+      border: 2px solid $text-color
+      border-radius: 50%
+    &__text
+      font-size: 18px
+      max-width: 400px
+      line-height: 1.25
+      
+.form
+  &__title
+    margin-top: 20px
+    margin-bottom: 32px
+    margin-left: 3px
+    font-size: 22px
+    line-height: 33px
+    +bold
+  &__subtitle
+    display: block
+    margin-bottom: 37px
+    font-size: 16px
+    line-height: 45px
+  &__description
+    font-size: 15px
+    display: block
+@media (max-width: 1200px)
+  .brif
+    &-block
+      padding-left: 8px
+    &__form
+      flex-basis: 47%
+      padding-left: 30px
+  .interview
+    padding-right: 30px
+    &__title
+      font-size: 20px
+      margin-bottom: 16px
+    &__subtitle
+      margin-bottom: 30px
+    &-list 
+      &__text
+        font-size: 14px
+        max-width: 270px
+      &__counter
+        margin-right: 20px
+  .form
+    &__title
+      font-size: 20px
+      margin-bottom: 16px
+    &__subtitle
+      margin-bottom: 30px
+@media (max-width: 768px)
+  .brif
+    background-image: url('../img/brif/brif-color-bg.jpg'), url('../img/brif/brif-bg.jpg')
+    background-position: top center, center bottom
+    background-size: 100% 45%, cover
+    background-repeat: repeat-x, no-repeat
+    &-block 
+      flex-direction: column
+    &__form
+      max-width: 390px
+      margin: 80px auto 0px auto 
+  .interview
+    padding: 0
+    &__title
+      text-align: center
+    &__subtitle
+      text-align: center
+    &-list 
+      margin: 16px auto
+      width: 320px
+        
+        
+@media (max-width: 480px)
+  .brif
+    background-size: 100% 47%, cover
+    padding: 40px 21px
+    &-block
+      padding: 0px
+    &__interview
+      padding-right: 0px
+    &__form
+      padding-left: 0px
+      margin-top: 95px
+    &__input
+      margin-bottom: 8px
+    &__button
+      margin-top: 15px
+      font-size: 14px
+      margin-bottom: 27px
+
+  .form
+    &__title
+      margin-top: 0px
+      margin-bottom: 26px
+      margin-left: 0px
+      font-size: 18px
+      line-height: 22px
+    &__subtitle
+      font-size: 14px
+      line-height: 18px
+      margin-bottom: 33px
+    &__description
+      font-size: 14px
+      width: 135px
+      margin: auto
+      line-height: 24px
+  .interview
+    &__title
+      margin: 0px auto 12px 0px
+      font-size: 18px
+      line-height: 22px
+      max-width: 220px
+      text-align: left
+    &__subtitle
+      font-size: 14px
+      line-height: 18px
+      max-width: 174px
+      margin: 0px auto 37px 0px
+      text-align: left
+    &-list
+      width: 100%
+      &__counter
+        margin-right: 8px
+      &__text
+        font-size: 14px
+        width: 235px
+        
+      &__item
+        margin-bottom: 30px
+        &:first-child
+          margin-bottom: 26px
+        &:nth-child(3)
+          margin-bottom: 30px
+          padding-right: 2px 
+        

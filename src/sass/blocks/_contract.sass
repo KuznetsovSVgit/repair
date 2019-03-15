@@ -1,0 +1,74 @@
+.contract
+  &__title
+    max-width: 644px
+    margin: auto
+    margin-bottom: 92px
+    font-size: 30px
+    +bold
+    line-height: 45px
+  &-block
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    margin-bottom: 107px
+  &__item
+    margin-right: 130px
+    max-width: 270px
+    text-align: center
+    &:last-child
+      margin-right: 0px
+  &__image
+    max-width: 270px
+    height: 360px
+    border: 20px solid $secondary
+    margin: 0px 0px 36px 0px
+    text-align: center
+  &__img
+    margin: auto
+  &__text
+    width: 289px
+    text-align: center
+    vertical-align: top
+    font-size: 18px
+    line-height: 24px
+    margin-top: 0px
+    margin-left: -10px
+@media (max-width: 1200px)
+  .contract
+    &-block
+      flex-wrap: wrap
+    &__item
+      margin-right: 0px
+      &:first-child
+        margin-right: 50px
+    &__text
+      width: 258px
+      font-size: 16px
+      margin-left: 0px
+@media (max-width: 768px)
+  .contract
+    &-block
+      flex-direction: column
+      flex-wrap: nowrap
+      align-items: center
+    &__title
+      font-size: 22px
+    &__item
+      margin-right: 0px !important
+@media (max-width: 480px)
+  .contract
+    &__title
+      font-size: 18px
+      line-height: 22px
+      max-width: 270px
+      margin-bottom: 48px
+    &__text
+      font-size: 14px
+      line-height: 17px
+    &__image
+      margin-bottom: 30px
+    &__item
+      margin-bottom: 28px
+
+
+
