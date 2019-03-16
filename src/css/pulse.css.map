@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,8EAA8E;AAE9E,UAAU,CAAV,KAAU;EACR,IAAI;IACF,SAAS,EAAE,gBAAgB;;EAG7B,GAAG;IACD,SAAS,EAAE,yBAAyB;;EAGtC,EAAE;IACA,SAAS,EAAE,gBAAgB;;;;AAI/B,AAAA,MAAM,CAAC;EACL,cAAc,EAAE,KAAK;CACtB",
-    "sources": [
-        "../sass/animation/pulse.scss"
-    ],
-    "names": [],
-    "file": "pulse.css"
-}

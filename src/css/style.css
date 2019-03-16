@@ -348,6 +348,7 @@ template {
   src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 
 @font-face {
@@ -356,6 +357,7 @@ template {
   src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 
 * {
@@ -1065,6 +1067,11 @@ body {
   background-color: #f5f5f5;
 }
 
+.hero-image {
+  -webkit-box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.05), 16px 22px 35px rgba(0, 0, 0, 0.05);
+          box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.05), 16px 22px 35px rgba(0, 0, 0, 0.05);
+}
+
 .hero-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1101,7 +1108,7 @@ body {
   font-size: 20px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
-  margin-bottom: 68px;
+  margin-bottom: 70px;
 }
 
 .hero-list {
@@ -1113,7 +1120,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1121,8 +1128,8 @@ body {
 }
 
 .hero-list__image {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #ffd200;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1138,7 +1145,9 @@ body {
 }
 
 .hero-list__text {
+  font-size: 14px;
   max-width: 300px;
+  line-height: 21px;
 }
 
 @media (max-width: 1200px) {
@@ -1236,6 +1245,7 @@ body {
   background-position: center right;
   background-size: contain;
   position: relative;
+  padding-top: 70px;
 }
 
 .offer:before {
@@ -1482,14 +1492,18 @@ body {
 
 .portfolio__title {
   margin: auto;
-  margin-bottom: 99px;
-  max-width: 650px;
+  margin-bottom: 92px;
+  max-width: 788px;
+  font-size: 30px;
+  line-height: 45px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .portfolio__arrows {
   max-width: 120px;
   margin: auto;
-  margin-top: 68px;
+  margin-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1536,18 +1550,30 @@ body {
   }
 }
 
+.price {
+  padding-top: 95px;
+}
+
 .price__title {
   margin: auto;
-  margin-bottom: 58px;
+  margin-bottom: 39px;
+  font-size: 30px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  line-height: 45px;
+  max-width: 517px;
 }
 
 .price__subtitle {
-  margin-bottom: 59px;
+  margin-bottom: 47px;
   text-align: center;
+  font-size: 20px;
+  line-height: 45px;
 }
 
 .price__card {
   margin-bottom: 30px;
+  height: 412px;
 }
 
 .card {
@@ -1567,11 +1593,14 @@ body {
 }
 
 .card__text {
-  padding: 40px;
+  padding: 22px;
+  font-size: 18px;
+  line-height: 45px;
 }
 
 .card__title {
   margin-top: 0;
+  margin-bottom: 2px;
 }
 
 .card__image {
@@ -1600,6 +1629,7 @@ body {
   color: #333333;
   font-size: 16px;
   position: relative;
+  height: 35px;
 }
 
 .card__link:hover:after {
@@ -1688,6 +1718,7 @@ body {
   background-size: 50%, cover;
   background-repeat: repeat-y, no-repeat;
   background-position: left center, center right;
+  padding-top: 85px;
 }
 
 .brif-block {
@@ -2153,7 +2184,12 @@ body {
 .step__text {
   font-size: 14px;
   max-width: 160px;
+  line-height: 19px;
   margin: auto;
+}
+
+.steps {
+  padding-top: 29px;
 }
 
 .steps__title {
@@ -2218,6 +2254,10 @@ body {
   }
 }
 
+.contract {
+  padding-top: 42px;
+}
+
 .contract__title {
   max-width: 644px;
   margin: auto;
@@ -2255,7 +2295,7 @@ body {
   max-width: 270px;
   height: 360px;
   border: 20px solid #f5f5f5;
-  margin: 0px 0px 36px 0px;
+  margin: 0px 0px 38px 0px;
   text-align: center;
 }
 
@@ -2330,6 +2370,10 @@ body {
   }
 }
 
+.help {
+  padding-top: 98px;
+}
+
 .help-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2355,6 +2399,7 @@ body {
   max-width: 288px;
   margin-left: 26px;
   margin-top: 27px;
+  line-height: 22px;
 }
 
 .help__image {
@@ -2403,6 +2448,8 @@ body {
 
 .sale {
   background-color: #ffd200;
+  padding-top: 55px;
+  height: 279px;
 }
 
 .sale__title {

@@ -1,12 +1,20 @@
 .price
+  padding-top: 95px
   &__title
     margin: auto
-    margin-bottom: 58px
+    margin-bottom: 39px
+    font-size: 30px
+    +bold
+    line-height: 45px
+    max-width: 517px
   &__subtitle
-    margin-bottom: 59px
+    margin-bottom: 47px
     text-align: center
+    font-size: 20px
+    line-height: 45px
   &__card
     margin-bottom: 30px
+    height: 412px
 .card
   text-align: center
   border: 1px solid $border-cards
@@ -16,9 +24,12 @@
     .card__image:before
       opacity: 1
   &__text
-    padding: 40px
+    padding: 22px
+    font-size: 18px
+    line-height: 45px
   &__title
     margin-top: 0
+    margin-bottom: 2px
   &__image
     position: relative
     &:before
@@ -38,6 +49,7 @@
     color: $text-color
     font-size: 16px
     position: relative
+    height: 35px
     &:hover
       &:after
         height: 12px
