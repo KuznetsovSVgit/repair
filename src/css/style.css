@@ -2490,6 +2490,15 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .sale {
+    padding-top: 34px;
+  }
+  .sale__title {
+    font-size: 28px;
+  }
+}
+
 @media (max-width: 480px) {
   .sale {
     padding-top: 68px;
